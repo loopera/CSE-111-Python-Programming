@@ -1,0 +1,14 @@
+Please respond thoroughly (at least two sentences for each question) to the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of functions.
+When I was writing the code for the final assignment which was a calculator for computing medical doses, I was able to appreciate the use of functions because it was easier to use the code that was already defined in a function.
+Also, during the time that I was writing the code for the receipt.py assignment, I learned how to call the functions to complete the task. Functionscan also make the code easier to read by other programmers.
+
+
+2. In your judgment, what is the value of test functions?
+Test functions are important because it is good practice to test the functions as a programmer. Test functions also ensure that there are no errors in the written functions. I think it is better to test the functions as a programmer first, rather than the user finding the errors when the program goes live.
+
+
+
+3. Describe your process for troubleshooting and fixing a program that has a problem. What is one thing you can do to improve your process?
+My process would be to run the program first and look at the errors that are listed in the Terminal. After looking at the errors, I can then try fixing it and run it again as debugging. Another way to fix an issue is to run a debugger. However, there are also times that I just need to have a break before continuing to find the solution. I can improve this by doing more practice in programming.

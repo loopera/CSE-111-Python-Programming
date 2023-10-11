@@ -1,0 +1,58 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+	WETFLAG Calculator
+
+2. What real-world problem will your program address or help to solve?
+	According to the BMJ Journal, 2021, "The WETFLAG ('Weight, Energy, 
+Tube size, Fluid, Lorazepam, Adrenaline and Glucose') mnemonic is 
+an aid to emergency calculations, used extensively in Emergency Departments
+and Intensive Care Units worldwide and taught as part of the EPALS (European
+Paediatric Advanced Life Support) course.
+	When you are presented with a collapsed child, it helps to estimate 
+and write down key drugs and equipment you may need (e-safe-anaesthesia.org).
+	WETFLAG is one means of preparation:
+
+	(W)eight = (age+4) x 2 
+		  – this is the estimated weight of the child
+	(E)nergy = 4 x weight (Joules) 
+		 – this is the energy required for defibrillation
+	(T)ube   = age/4 + 4 
+	         (approx size of endotracheal tube uncuffed for intubation)
+	(FL)uids = 20ml/kg of Normal Saline bolus
+	(A)drenaline = 10mcg/kg = 0.1ml/kg of adrenaline 1:10,000
+	(G)lucose = 2ml/kg of 10% glucose
+
+
+3. What will you learn from developing this program?
+	I will learn how to use datetime to get the age of the child. I will
+learn how to use pytest, and also learn how to use and define functions.
+
+4. What Python modules will your program use?
+	I will be using math for the computation, datetime to get the age 
+based on their birth date, and pytest to check the accuracy of the results.
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+	Yes.
+	In the main function, I will ask for input for the birth date of the child.
+If the child is between 1-16 years old, the WETFLAG calculator is applicable
+and suitable to obtain the estimated weight based from the age. However, it is only
+limited to 1-16 years old and cannot be used for persons outside of this age range.
+	I will write and define different functions to compute for each 
+WETFLAG computation.
+	The computation of the WETFLAG will be printed to the user afterwards.
+
+6. Will you write test functions to test at least two of your program
+functions?
+	Yes. I will use pytest to check the accuracy of the computation functions.
+
